@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process with Bike Light Added to Cart,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process by clicking the 'Finish' button. Verify that the checkout is successfully completed.,"Step 1: Navigate to https://www.saucedemo.com/
+1,Verify Checkout Completion after Adding Bike Light to Cart,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process and verify the checkout completion.,"Step 1: Navigate to https://www.saucedemo.com/
 Step 2: Login -> Navigate to page 'inventory.html'
 Step 3: Click on link 'item 3 title link'
 Step 4: Add bike light to cart and proceed to checkout
@@ -16,7 +16,7 @@ Step 4: Add bike light to cart and proceed to checkout
 Step 5: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
 Step 6: Take full page screenshot as checkpoint
 ",High
-2,Verify Successful Checkout Process with Bike Light Added to Cart,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process by clicking the 'Finish' button. Verify that the checkout is successfully completed.,"Step 1: Navigate to https://www.saucedemo.com/
+2,Verify Checkout Completion after Adding Bike Light to Cart,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process and verify the checkout completion.,"Step 1: Navigate to https://www.saucedemo.com/
 Step 2: Login -> Navigate to page 'inventory.html'
 Step 3: Click on button 'add-to-cart-sauce-labs-backpack'
 Step 4: Click on link 'item 0 title link'
@@ -34,7 +34,7 @@ Step 5: Add bike light to cart and proceed to checkout
 Step 6: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
 Step 7: Take full page screenshot as checkpoint
 ",Medium
-3,Verify Return to Inventory Page after Completing Checkout with Bike Light,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process by clicking the 'Finish' button. Return to the inventory page by clicking the 'Back to Products' button. Verify that the inventory page is displayed.,"Step 1: Navigate to https://www.saucedemo.com/
+3,Verify Return to Inventory after Completing Checkout,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process and return to the inventory. Verify the inventory page.,"Step 1: Navigate to https://www.saucedemo.com/
 Step 2: Login -> Navigate to page 'inventory.html'
 Step 3: Click on link 'item 3 title link'
 Step 4: Add bike light to cart and proceed to checkout
@@ -52,7 +52,7 @@ Step 5: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
 Step 6: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-4,Verify Navigation to Cart from Inventory and Continue Shopping,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process by clicking the 'Finish' button. Return to the inventory page by clicking the 'Back to Products' button. Navigate to the cart page and continue shopping. Verify that the inventory page is displayed.,"Step 1: Navigate to https://www.saucedemo.com/
+4,Verify Navigation to Cart and Back to Inventory,Navigate to the home page and login to access the inventory. Add a bike light to the cart and proceed to checkout. Complete the checkout process and return to the inventory. Navigate through the sidebar links and verify the inventory page.,"Step 1: Navigate to https://www.saucedemo.com/
 Step 2: Login -> Navigate to page 'inventory.html'
 Step 3: Click on link 'item 3 title link'
 Step 4: Add bike light to cart and proceed to checkout
