@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Login at Home Page,Navigate to the home page and access the login credentials section. Log in to the home page and verify successful login.,"Step 1: Navigate to https://www.saucedemo.com/
+1,Verify Successful Login to Page Home,"Navigate to the login credentials section on the home page. Login to the page using the provided credentials. After successful login, verify that you are on the home page.","Step 1: Navigate to https://www.saucedemo.com/
 Step 2: Click on div 'login credentials'
 Step 3: Login
 Step 4: Take full page screenshot as checkpoint
