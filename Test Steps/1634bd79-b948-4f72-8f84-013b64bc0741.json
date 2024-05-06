@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to https://www.saucedemo.com/",
+        "step 2: Click on div 'login credentials'",
+        "step 3: Login -> Navigate to page 'inventory.html'",
+        "step 4: Click on button 'add-to-cart-sauce-labs-backpack'",
+        "step 5: Click on link '2'",
+        "step 6: Proceed through checkout process",
+        "step 7: Click on button 'finish' -> Navigate to page 'checkout-complete.html'",
+        "step 8: Click on button 'back-to-products' -> Navigate to page 'inventory.html'",
+        "step 9: Click on button 'add-to-cart-sauce-labs-onesie'",
+        "step 10: Click on button 'add-to-cart-test.allthethings()-t-shirt-(red)'",
+        "step 11: Click on link 'item 3 title link' -> Navigate to page 'inventory-item.html'",
+        "step 12: Click on button 'back-to-products' -> Navigate to page 'inventory.html'",
+        "step 13: Click on link 'item 1 title link' -> Navigate to page 'inventory-item.html'",
+        "step 14: Click on button 'add-to-cart'",
+        "step 15: Click on link '3'",
+        "step 16: Proceed through checkout process",
+        "step 17: Click on button 'finish' -> Navigate to page 'checkout-complete.html'",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://www.saucedemo.com/",
+        "step 2: Click on div 'login credentials'",
+        "step 3: Login -> Navigate to page 'inventory.html'",
+        "step 4: Click on select",
+        "step 5: Click on select",
+        "step 6: Click on button 'react-burger-menu-btn'",
+        "step 7: Click on link 'inventory sidebar link'",
+        "step 8: Click on link 'item 2 title link' -> Navigate to page 'inventory-item.html'",
+        "step 9: Click on button 'add-to-cart'",
+        "step 10: Click on link '3' -> Navigate to page 'cart.html'",
+        "step 11: Click on button 'continue-shopping' -> Navigate to page 'inventory.html'",
+        "step 12: Click on link 'item 1 title link' -> Navigate to page 'inventory-item.html'",
+        "step 13: Click on button 'add-to-cart'",
+        "step 14: Click on button 'back-to-products' -> Navigate to page 'inventory.html'",
+        "step 15: Click on link '2'",
+        "step 16: Proceed through checkout process",
+        "step 17: Click on button 'finish' -> Navigate to page 'checkout-complete.html'",
+        "step 18: Click on button 'back-to-products' -> Navigate to page 'inventory.html'",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
