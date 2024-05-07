@@ -1,99 +1,36 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process after Adding Item to Shopping Cart,Navigate to the home page and login to access the inventory. Add an item to the cart and proceed through the checkout steps. Complete the checkout process and verify the completion.,"Step 1: Navigate to https://www.saucedemo.com/
-Step 2: Click on div 'login credentials'
-Step 3: Login -> Navigate to page 'inventory.html'
-Step 4: Click on button 'add-to-cart-sauce-labs-backpack'
-Step 5: Click on link '2'
-Step 6: Proceed through checkout process
-	- Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
-	- Step 2: Click on input field 'firstName'
-	- Step 3: Enter input value in input field 'firstName'
-	- Step 4: Click on input field 'lastName'
-	- Step 5: Enter input value in input field 'lastName'
-	- Step 6: Click on input field 'postalCode'
-	- Step 7: Enter input value in input field 'postalCode'
-	- Step 8: Click on input field 'continue'
-Step 7: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
-Step 8: Take full page screenshot as checkpoint
+1,Verify Successful Checkout Process on Inventory Page,Navigate to the home page and login. Proceed to the inventory page and add items to the cart. Complete the checkout process by entering the required information. Verify that the checkout is successful on the inventory page.,"Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login
+Step 3: Click on div 'login credentials'
+Step 4: Click on input field 'user-name'
+Step 5: Enter input value in input field 'user-name'
+Step 6: Click on div
+Step 7: Click on div
+Step 8: Enter input value in input field 'password'
+Step 9: Click on input field 'login-button' -> Navigate to page 'inventory.html'
+Step 10: Click on select
+Step 11: Click on select
+Step 12: Click on button 'react-burger-menu-btn'
+Step 13: Click on link 'inventory sidebar link'
+Step 14: Click on link 'item 2 title link' -> Navigate to page 'inventory-item.html'
+Step 15: Click on button 'add-to-cart'
+Step 16: Click on link '1' -> Navigate to page 'cart.html'
+Step 17: Click on button 'continue-shopping' -> Navigate to page 'inventory.html'
+Step 18: Click on button 'add-to-cart-sauce-labs-bolt-t-shirt'
+Step 19: Click on link 'item 0 title link' -> Navigate to page 'inventory-item.html'
+Step 20: Click on button 'add-to-cart'
+Step 21: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
+Step 22: Click on link '3' -> Navigate to page 'cart.html'
+Step 23: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
+Step 24: Click on input field 'firstName'
+Step 25: Click on input field 'firstName'
+Step 26: Enter input value in input field 'firstName'
+Step 27: Click on input field 'lastName'
+Step 28: Enter input value in input field 'lastName'
+Step 29: Click on input field 'postalCode'
+Step 30: Enter input value in input field 'postalCode'
+Step 31: Click on input field 'continue' -> Navigate to page 'checkout-step-two.html'
+Step 32: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
+Step 33: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
+Step 34: Take full page screenshot as checkpoint
 ",High
-2,Verify Inventory Page after Adding Item to Shopping Cart,Navigate to the home page and login to access the inventory. Add an item to the cart and proceed through the checkout steps. Complete the checkout process and return to the inventory page to verify the changes.,"Step 1: Navigate to https://www.saucedemo.com/
-Step 2: Click on div 'login credentials'
-Step 3: Login -> Navigate to page 'inventory.html'
-Step 4: Click on button 'add-to-cart-sauce-labs-backpack'
-Step 5: Click on link '2'
-Step 6: Proceed through checkout process
-	- Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
-	- Step 2: Click on input field 'firstName'
-	- Step 3: Enter input value in input field 'firstName'
-	- Step 4: Click on input field 'lastName'
-	- Step 5: Enter input value in input field 'lastName'
-	- Step 6: Click on input field 'postalCode'
-	- Step 7: Enter input value in input field 'postalCode'
-	- Step 8: Click on input field 'continue'
-Step 7: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
-Step 8: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
-Step 9: Take full page screenshot as checkpoint
-",Low
-3,Verify Successful Checkout Process after Adding Multiple Items to Shopping Cart,Navigate to the home page and login to access the inventory. Add multiple items to the cart and proceed through the checkout steps. Complete the checkout process and verify the completion. Ensure all added items are successfully checked out.,"Step 1: Navigate to https://www.saucedemo.com/
-Step 2: Click on div 'login credentials'
-Step 3: Login -> Navigate to page 'inventory.html'
-Step 4: Click on button 'add-to-cart-sauce-labs-backpack'
-Step 5: Click on link '2'
-Step 6: Proceed through checkout process
-	- Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
-	- Step 2: Click on input field 'firstName'
-	- Step 3: Enter input value in input field 'firstName'
-	- Step 4: Click on input field 'lastName'
-	- Step 5: Enter input value in input field 'lastName'
-	- Step 6: Click on input field 'postalCode'
-	- Step 7: Enter input value in input field 'postalCode'
-	- Step 8: Click on input field 'continue'
-Step 7: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
-Step 8: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
-Step 9: Click on button 'add-to-cart-sauce-labs-onesie'
-Step 10: Click on button 'add-to-cart-test.allthethings()-t-shirt-(red)'
-Step 11: Click on link 'item 3 title link' -> Navigate to page 'inventory-item.html'
-Step 12: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
-Step 13: Click on link 'item 1 title link' -> Navigate to page 'inventory-item.html'
-Step 14: Click on button 'add-to-cart'
-Step 15: Click on link '3'
-Step 16: Proceed through checkout process
-	- Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
-	- Step 2: Click on input field 'firstName'
-	- Step 3: Enter input value in input field 'firstName'
-	- Step 4: Click on input field 'lastName'
-	- Step 5: Enter input value in input field 'lastName'
-	- Step 6: Click on input field 'postalCode'
-	- Step 7: Enter input value in input field 'postalCode'
-	- Step 8: Click on input field 'continue'
-Step 17: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
-Step 18: Take full page screenshot as checkpoint
-",Trivial
-4,Verify Inventory Page after Adding Item and Proceeding through Checkout,Navigate to the home page and login to access the inventory. Select objects and add an item to the cart. Proceed through the checkout steps and complete the process. Return to the inventory page and verify the items added.,"Step 1: Navigate to https://www.saucedemo.com/
-Step 2: Click on div 'login credentials'
-Step 3: Login -> Navigate to page 'inventory.html'
-Step 4: Click on select
-Step 5: Click on select
-Step 6: Click on button 'react-burger-menu-btn'
-Step 7: Click on link 'inventory sidebar link'
-Step 8: Click on link 'item 2 title link' -> Navigate to page 'inventory-item.html'
-Step 9: Click on button 'add-to-cart'
-Step 10: Click on link '3' -> Navigate to page 'cart.html'
-Step 11: Click on button 'continue-shopping' -> Navigate to page 'inventory.html'
-Step 12: Click on link 'item 1 title link' -> Navigate to page 'inventory-item.html'
-Step 13: Click on button 'add-to-cart'
-Step 14: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
-Step 15: Click on link '2'
-Step 16: Proceed through checkout process
-	- Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
-	- Step 2: Click on input field 'firstName'
-	- Step 3: Enter input value in input field 'firstName'
-	- Step 4: Click on input field 'lastName'
-	- Step 5: Enter input value in input field 'lastName'
-	- Step 6: Click on input field 'postalCode'
-	- Step 7: Enter input value in input field 'postalCode'
-	- Step 8: Click on input field 'continue'
-Step 17: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
-Step 18: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
-Step 19: Take full page screenshot as checkpoint
-",Trivial
